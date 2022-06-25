@@ -13,7 +13,7 @@ from variables import *
 
 
 # chargement du driver de Chrome
-driver = webdriver.Chrome(executable_path="chromedriver")
+driver = webdriver.Chrome(executable_path="chromedriver.exe")
 # chargement de la page html du marmiton
 driver.get(mpa_url_banquealimentaire)
 
