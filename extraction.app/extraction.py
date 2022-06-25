@@ -13,7 +13,7 @@ from variables import *
 
 
 # chargement du driver de Chrome
-driver = webdriver.Chrome('https://github.com/jituier/exercise/blob/c1d5c73151367f80744d44e72c4f95e69cac0253/extraction.app/chromedriver.exe')
+driver = webdriver.Chrome('C:\Users\zcqz1\Documents\MASTER\plurital\S4\WEB\extraction.app')
 # chargement de la page html du marmiton
 driver.get(mpa_url_banquealimentaire)
 
